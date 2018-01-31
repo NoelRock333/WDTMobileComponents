@@ -1,0 +1,3 @@
+rootProject.name = 'WDTMobileComponents'
+
+include ':app'
