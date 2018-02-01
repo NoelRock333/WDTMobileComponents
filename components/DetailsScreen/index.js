@@ -31,6 +31,9 @@ const DetailsScreen = ({ navigation }) => (
         <Button warning block onPress={() => navigation.navigate('Swipable')}>
           <Text>Swipable</Text>
         </Button>
+        <Button warning block onPress={() => navigation.navigate('Tabs')}>
+          <Text>Tabs</Text>
+        </Button>
       </View>
     </Content>
   </Container>

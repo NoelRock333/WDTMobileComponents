@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
-import { StackNavigator } from 'react-navigation';
+import { StackNavigator, TabBarBottom } from 'react-navigation';
 
 import DetailsScreen from '../components/DetailsScreen';
 import HomeScreen from '../components/HomeScreen';
@@ -8,6 +8,7 @@ import GridScreenCols from '../components/GridScreenCols';
 import GridScreenRows from '../components/GridScreenRows';
 import VectorIcons from '../components/VectorIcons';
 import Swipable from '../components/Swipable';
+import Tabs from '../components/Tabs';
 
 const RootNavigator = StackNavigator({
   Home: {
@@ -33,6 +34,9 @@ const RootNavigator = StackNavigator({
   },
   Swipable: {
     screen: Swipable
+  },
+  Tabs: {
+    screen: Tabs
   }
 });
 
