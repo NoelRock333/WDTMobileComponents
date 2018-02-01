@@ -4,6 +4,8 @@ import { StackNavigator } from 'react-navigation';
 
 import DetailsScreen from '../components/DetailsScreen';
 import HomeScreen from '../components/HomeScreen';
+import GridScreenCols from '../components/GridScreenCols';
+import GridScreenRows from '../components/GridScreenRows';
 
 const RootNavigator = StackNavigator({
   Home: {
@@ -18,6 +20,12 @@ const RootNavigator = StackNavigator({
       headerTitle: 'Details',
     },
   },
+  GridScreenCols: {
+    screen: GridScreenCols
+  },
+  GridScreenRows: {
+    screen: GridScreenRows
+  }
 });
 
 export default RootNavigator;

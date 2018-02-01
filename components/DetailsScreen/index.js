@@ -9,6 +9,12 @@ const DetailsScreen = ({ navigation }) => (
       <Button danger onPress={() => navigation.goBack()}>
         <Text>Go to back</Text>
       </Button>
+      <Button warning onPress={() => navigation.navigate('GridScreenCols')}>
+        <Text>Grid Screen Cols</Text>
+      </Button>
+      <Button warning onPress={() => navigation.navigate('GridScreenRows')}>
+        <Text>Grid Screen Rows</Text>
+      </Button>
     </View>
   </View>
 );
