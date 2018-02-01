@@ -18,6 +18,9 @@ const DetailsScreen = ({ navigation }) => (
       <Button warning onPress={() => navigation.navigate('VectorIcons')}>
         <Text>Vector Icons</Text>
       </Button>
+      <Button warning onPress={() => navigation.navigate('Swipable')}>
+        <Text>Swipable</Text>
+      </Button>
     </View>
   </View>
 );
