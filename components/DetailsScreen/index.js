@@ -15,6 +15,9 @@ const DetailsScreen = ({ navigation }) => (
       <Button warning onPress={() => navigation.navigate('GridScreenRows')}>
         <Text>Grid Screen Rows</Text>
       </Button>
+      <Button warning onPress={() => navigation.navigate('VectorIcons')}>
+        <Text>Vector Icons</Text>
+      </Button>
     </View>
   </View>
 );
